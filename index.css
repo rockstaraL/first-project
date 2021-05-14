@@ -1,0 +1,185 @@
+.menu {
+	background-color: purple;
+	color: white;
+	font-weight: bold;
+	padding: 10px 20px;
+	position: fixed;
+	height: 100%;
+	width: 15%;
+	top: 0;
+	left: 0;
+
+}
+.menu h2 {
+	margin-bottom: 5px;
+}
+.menu a {
+	color: inherit;
+text-decoration: solid;
+display: block;
+width: 100%;
+padding: 8px 16px;
+box-sizing: border-box;
+font-size: 20px;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: "Poppins", sans-serif;
+	font-size: 18px;
+	margin: 0px;
+}
+.menu a:hover {
+	background-color: white;
+	color: black;
+}
+.main h1{
+	font-weight: 400;
+	font-size: 50px;
+}
+.main {
+	margin-left: 30%;
+	margin-top: 80px;
+	margin-right: 40px;
+}
+.images img {
+width: 45%;
+border-radius: 10px;
+margin: 5px;
+opacity: 0.7;
+}
+.images img:hover{
+opacity: 1;
+}
+h3 {
+	font-size: 40px;
+	color: purple;
+	font-weight: 400;
+	margin: 10px 0;
+}
+hr {
+	border: 5px solid purple;
+border-radius: 4px;
+margin: 20px 0;
+}
+p {
+	font-weight: 500;
+	font-size: 16px;
+}
+.member {
+padding: 8px;
+width: 30%;
+display: inline-block;
+margin: 15px 0px;
+}
+.member img {
+	border-radius: 10px;
+	width: 100%;
+	filter: grayscale(30%);
+}
+.description {
+	background-color: lightgray;
+	border-radius: 5px;
+	padding: 8px 16px 5px;
+}
+.ceo {
+	color: gray;
+	padding: 15px 0px;
+
+}
+#services {
+	margin-bottom: 100px;
+}
+#designers {
+	margin-bottom: 100px;
+}
+
+.tarifs{
+margin: 20px 0px;
+}
+.tarif{
+	width: 49%;
+	
+	min-width: 150px;
+	display: inline-block;
+	text-align: center;
+
+}
+.tarif ul {
+	background-color: lightgray;
+color: black;
+margin: 0px;
+padding: 0px;
+}
+.tarif li {
+	list-style: none;
+	border-bottom: 1px solid gray;
+	padding: 16px 0px;
+
+}
+.tarif .tarifname {
+	color: white;
+	background-color: purple;
+	font-size: 24px;
+	padding: 30px 0px;
+}
+.price {
+	font-size: 30px;
+	font-weight: 400;
+}
+.period {
+	opacity: 0.7;
+}
+.tarif button {
+color: purple;
+background-color: white;
+padding: 15px 20px;
+border-radius: 20px;
+font-size: 18px;
+}
+.pro .tarifname {
+	background-color: red;
+}
+.pro button {
+	background-color: red;
+	color: white;
+}
+.tarif button:hover{
+background-color: purple;
+color: white;
+}
+.pro button:hover{
+	background-color: white;
+	color: red;
+}
+#packages{
+	margin-bottom: 100px;
+}
+#contact input {
+	border: 1px solid lightgray;
+	outline: none;
+	padding: 8px;
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 10px 0px;
+}
+#contact p {
+	margin-bottom: 10px;
+}
+#contact input[type=submit]
+{
+background-color: purple;
+border-radius: 5px;
+color: white;
+}
+#footer {
+padding: 32px 58px 32px;
+background-color: lightgray;
+text-align: right;
+}
+#footer a {
+	color: black;
+}
